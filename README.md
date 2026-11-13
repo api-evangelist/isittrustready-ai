@@ -1,4 +1,4 @@
-# isittrustready-ai
+# Is It Trust-Ready
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-isittrustready-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://isittrustready.ai/
+Is It Trust-Ready provides a web service that scans any domain for agent‑trust readiness, offering verifiable TrustScores that attest to identity, alignment, accountability and security. Users can submit a domain to receive a signed score and badge, while the platform also offers its own self‑assessment report and integrates with the Mnemom trust ecosystem.
+
+**Areas:** TrustScore · Agentic Web · AI Agents
+
+## Is It Trust-Ready on APIs.io
+
+Everything profiled for Is It Trust-Ready is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/isittrustready-ai/](https://apis.io/providers/isittrustready-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Is It Trust-Ready Badge API](https://apis.io/apis/isittrustready-ai/isittrustready-ai-badge-api/) — The Badge API from Is It Trust-Ready — 1 operation(s) for badge.
+- [Is It Trust-Ready Jwk API](https://apis.io/apis/isittrustready-ai/isittrustready-ai-jwk-api/) — The Jwk API from Is It Trust-Ready — 1 operation(s) for jwk.
+- [Is It Trust-Ready MCP API](https://apis.io/apis/isittrustready-ai/isittrustready-ai-mcp-api/) — The Mcp API from Is It Trust-Ready — 1 operation(s) for mcp.
+- [Is It Trust-Ready Og API](https://apis.io/apis/isittrustready-ai/isittrustready-ai-og-api/) — The Og API from Is It Trust-Ready — 1 operation(s) for og.
+- [Is It Trust-Ready R API](https://apis.io/apis/isittrustready-ai/isittrustready-ai-r-api/) — The R API from Is It Trust-Ready — 1 operation(s) for r.
+- [Is It Trust-Ready Rubric.json API](https://apis.io/apis/isittrustready-ai/isittrustready-ai-rubric-json-api/) — The Rubric.json API from Is It Trust-Ready — 1 operation(s) for rubric.json.
+- [Is It Trust-Ready Scan API](https://apis.io/apis/isittrustready-ai/isittrustready-ai-scan-api/) — The Scan API from Is It Trust-Ready — 1 operation(s) for scan.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Is It Trust-Ready Agentic Access](https://apis.io/agentic-access/isittrustready-ai/isittrustready-ai-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [ScanRequest](https://apis.io/schemas/isittrustready-ai/isittrustready-ai-scan-request/)
+- [ScanResult](https://apis.io/schemas/isittrustready-ai/isittrustready-ai-scan-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Isittrustready Ai Context](https://apis.io/jsonld/isittrustready-ai/isittrustready-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Is It Trust-Ready API Rules](https://apis.io/rules/isittrustready-ai/isittrustready-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Is It Trust-Ready Domain Security](https://apis.io/security/isittrustready-ai/isittrustready-ai-domain-security/)
+- [Is It Trust-Ready Vulnerability Disclosure](https://apis.io/security/isittrustready-ai/isittrustready-ai-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://isittrustready.ai/)
+
+## API Evangelist rating
+
+**Kin Score 30.7** — thin · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 50.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 6.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 37.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/isittrustready-ai/](https://apis.io/providers/isittrustready-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Is It Trust-Ready: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/isittrustready-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
